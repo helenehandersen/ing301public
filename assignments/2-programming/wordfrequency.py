@@ -58,7 +58,7 @@ def find_most_frequent(frequency_table):
     mostUsed = ('', 0)
     for i in frequency_table.items():
         mostUsed = largest_pair(i, mostUsed)
-    return mostUsed
+    return mostUsed[0]
 
 
 ############################################################
